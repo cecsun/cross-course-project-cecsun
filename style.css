@@ -1,0 +1,54 @@
+header {
+    background-color: blue;
+    margin-top: 0;
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: orange;
+    font-size: 50px;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+}
+
+body {
+    background: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 22%;
+    margin-top: 4%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    padding: 10px;
+    background-color: red;
+}
+
+li a {
+    /* display: block; */
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: orange;
+}
