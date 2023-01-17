@@ -1,7 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
 
+html, body {
+    width: 100%;
+}
 
 /* Navigation
 -------------- */
+
+.logo {
+    margin: auto;
+    display: block;
+    background: black;
+}
 
 nav,
 #menu-checkbox {
@@ -14,29 +28,39 @@ nav,
 
 header {
     position: relative;
-    background: red;
+    background: #FF9900;
     color: white;
     padding: 30px;
     font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
-nav{
+nav {
     position: absolute;
-    background: red;
+    background: #FF9900;
     left: 0px;
 }
 
 nav a {
     display: block;
     color: white;
-    padding: 10px 20px;
-    font-size: 1rem;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: 1.2rem;
 }
 
 @media (min-width: 401px) {
     nav {
         display: block;
         position: static;
+        /* display: flex;
+        background: transparent;
+        box-shadow: none;
+        width: 100%;
+        justify-content: center;
+        align-items: flex-end;
+        height: 100%; */
     }
 
     .hamburger-icon {
@@ -46,6 +70,81 @@ nav a {
     nav a {
         display: inline-block;
     }
+}
+
+/* Search Bar 
+------------------- */
+
+/* @media (max-width: 400px) {
+    .search-form {
+        margin: auto;
+        float: right;
+        margin-right: 10px;
+    }
+
+    input {
+        padding: 10px;
+        border: none;
+        font-size: 16px;
+    }
+
+    button {
+        float: right;
+        background: black
+        color: white
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        position: relative;
+        padding: 7px;
+        border: none;
+        font-size: 16px;
+    }
+} */
+
+/* Background - Homepage
+-------------- */
+
+@media only screen and (min-width: 401px) {
+    body {
+        background-image: url("../images/background.jpg");
+        background-size: cover;
+        /* margin: 0;
+        padding: 0; */
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: black;
+        background-size: cover;
+        /* margin: 0;
+        padding: 0; */
+    }
+}
+
+/* Subheader
+----------------- */
+
+subheader {
+    text-align: left;
+    display: block;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+subheader a {
+    color: white;
+}
+
+subheader2 {
+    text-align: right;
+    display: block;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+subheader2 a {
+    color: white;
 }
 
 /* Images - Homepage
@@ -76,9 +175,112 @@ nav a {
 .just-added {
     background-color: black;
     padding: 20px;
+    margin-bottom: 50px;
 }
 
 .my-videos {
     background-color: black;
     padding: 20px;
+    margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 400px) {
+    .just-added img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .just-added {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 15px;
+    }
+    
+    .my-videos img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .my-videos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 15px;
+    }
+    
+    .just-added {
+        background-color: black;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+    
+    .my-videos {
+        background-color: black;
+        padding: 10px;
+        margin-bottom: 50px;
+    }  
+}
+
+/* Buttons - Homepage (circles)
+-------------- */
+
+.cta-circles-home img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.cta-circles-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+.cta-circles-home {
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 400px) {
+    .cta-circles-home img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .cta-circles-home {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 30px;
+    }
+    
+    .cta-circles-home {
+        padding: 20px;
+        margin-bottom: 50px;
+    } 
+}
+
+/* Footer
+-------------- */
+
+.footer {
+    position: relative;
+    background: black;
+    color: white;
+    padding: 30px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+

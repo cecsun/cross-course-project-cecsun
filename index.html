@@ -5,72 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Square Eyes</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/6fb668811a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6fb668811a.js" crossorigin="anonymous"></script>
 </head>
 
-<header>
-    <!-- <h1>SQUARE EYES</h1>
-    <section><h1 class="logo">CONNECTING FILM-LOVERS</h1></section> -->
-    <input type="checkbox" id="menu-checkbox">
-    <label for="menu-checkbox" class="hamburger-icon"><i class="fas fa-bars"></i></label>
-    <nav>
-        <a href="index.html">HOME</a>
-        <a href="about.html">ABOUT</a>
-        <a href="contact.html">CONTACT</a>
-    </nav>
-</header>
-
 <body>
+    <logo>
+        <img class="logo" src="images/logo.png" alt="logo">
+    </logo>
+    <header>
+        <input type="checkbox" id="menu-checkbox">
+        <label for="menu-checkbox" class="hamburger-icon"><i class="fas fa-bars"></i></label>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+        </nav> 
+        <!-- <form class="search-form">
+            <input type="text" placeholder="fa-regular fa-magnifying-glass">
+            <button>Search</button>
+        </form>    -->
+    </header>
 
+    <subheader>
+        <a href="most-popular.html">Just added</a>
+    </subheader>
+    <subheader2>
+        <a href="most-popular.html">See all</a>
+    </subheader2>
     <div class="just-added">
-        <img src="/images/Square_Eyes_Cover4.jpeg" alt="Scream"> 
-        <img src="/images/Square_Eyes_Cover7.jpeg" alt="Batman">
-        <img src="/images/Square_Eyes_Cover2.jpeg" alt="Godzilla">
-        <img src="/images/Square_Eyes_Cover1.jpeg" alt="Fast&furious">
+        <img src="images/Square_Eyes_Cover4.jpeg" alt="Scream"> 
+        <img src="images/Square_Eyes_Cover7.jpeg" alt="Batman">
+        <img src="images/Square_Eyes_Cover2.jpeg" alt="Godzilla">
+        <img src="images/Square_Eyes_Cover1.jpeg" alt="Fast&furious">
     </div>
 
+    <div class="cta-circles-home">
+        <img src="images/most popular.png" alt="most popular">
+        <img src="images/categories.png" alt="categories">
+        <img src="images/collections.png" alt="collections">
+        <img src="images/all videos a-z.png" alt="all videos a-z">
+    </div>
 
-<!-- <div class="rows"> -->
-
-    <!-- <div class="just-added grid-item"> -->
-        <!-- <div class="column"> -->
-    <!-- <div class="just-added"></div> -->
-            <!-- <img src="/images/Square_Eyes_Cover4.jpeg" alt="Scream" style="width:20%; height:100%"> -->
-        <!-- </div> -->
-        <!-- <div class="column"> -->
-            <!-- <img src="/images/Square_Eyes_Cover7.jpeg" alt="Batman" style="width:20%;height:100%;"> -->
-        <!-- </div> -->
-        <!-- <div class="column"> -->
-            <!-- <img src="/images/Square_Eyes_Cover2.jpeg" alt="Godzilla" style="width:20%;height:100%"> -->
-        <!-- </div> -->
-        <!-- <div class="column"> -->
-            <!-- <img src="/images/Square_Eyes_Cover1.jpeg" alt="Fast&furious" style="width:20%;height:100%"> -->
-        <!-- </div> -->
-    <!-- </div> -->
-
-    <section class="circles grid-item">
-        <div class="circle floated positioned">
-            <p>MOST POPULAR</p>
-        </div>
-        <div class="circle floated positioned">
-            <p>CATEGORIES</p>
-        </div>
-        <div class="circle floated positioned">
-            <p>COLLECTIONS</p>
-        </div>
-        <div class="circle floated positioned">
-            <p>ALL VIDEOS A-Z</p>
-        </div>
-    </section>
-
+    <subheader>
+        <a href="most-popular.html">My videos</a>
+    </subheader>
     <div class="my-videos">
             <img src="/images/Square_Eyes_Cover5.jpeg" alt="Sweetheart">
             <img src="/images/Square_Eyes_Cover8.jpeg" alt="Toy Story">
             <img src="/images/Square_Eyes_Cover3.jpeg" alt="Once upon a time in Hollywood">
     </div>
 
-    
-<footer></footer>    
+<div class="footer">
+    <section>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </section>
+    <p>&copy SquareEyes. All rights reserved</p>
+</div>    
 </body>
 </html>
