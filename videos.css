@@ -31,7 +31,15 @@
     color: #a5a5a5;
 }
 
-/* .row {
+.multicolortext-batman2 .batman1 {
+    color: white;
+}
+
+.multicolortext-batman2 .batman2 {
+    color: #a5a5a5;
+}
+
+.row {
     background: white;
     justify-content: space-around;
     display: flex;
@@ -46,6 +54,6 @@
 /* .row .column {
     padding: 16px;
     column-gap: 20px;
-} */
+}
 
 }
