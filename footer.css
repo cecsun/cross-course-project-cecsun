@@ -1,0 +1,15 @@
+.footer {
+    position: relative;
+    background: black;
+    color: white;
+    padding: 30px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 5px;
+}
