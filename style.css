@@ -174,4 +174,122 @@ subheader2 a {
     } 
 }
 
+/* Contact
+---------------- */
+@media only screen and (max-width: 400px) {
+    .contact {
+        color: white;
+        text-align: center;
+    }
+
+    .contact h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    .contact h2 {
+        font-size: 30px;
+    }
+
+    .contact h2 p {
+        font-size: 15px;
+    }
+
+    .contact h3 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .contact h3 p {
+        font-size: 15px;
+    }
+
+    .contact img {
+        margin-top: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    h4 {
+        color: white;
+        background: #ff9900;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .form1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .form1 input {
+        padding: 5px;
+        border-radius: 10px;
+        border-style: none;
+        margin-inline: 10px;
+    }
+
+    .form2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .form2 input {
+        padding: 5px;
+        border-radius: 10px;
+        border-style: none;
+        margin-top: 20px;
+        width: 250px;
+    }
+
+    .message p {
+        color: white;
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+
+    .form3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .form3 input {
+        padding: 5px;
+        border-radius: 10px;
+        border-style: none;
+        width: 250px;
+        height: 100px;
+    }
+
+    .message-button {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .message-button a {
+        color: white;
+        text-decoration: none;
+        /* white-space: nowrap; */
+    }
+    
+    .sendmessage {
+        background: #ff9900;
+        font-size: 20px;
+        padding: 5px;
+        margin: 10px;
+        letter-spacing: 0.5px;
+        border-radius: 15px;
+        border-style: none;
+        width: 35%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+}
 
