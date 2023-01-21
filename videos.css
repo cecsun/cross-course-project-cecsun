@@ -1,116 +1,124 @@
 @media only screen and (max-width: 400px) {
 
-.video img {
-    width: 100%;
-    height: 100%;
-}
+    .video img {
+        width: 100%;
+        height: 100%;
+    }
 
-.video h1 {
-    color: white;
-    margin-left: 10px;
-    letter-spacing: 2px;
-}
+    .video h1 {
+        color: white;
+        margin-left: 10px;
+        letter-spacing: 2px;
+        font-size: 35px;
+    }
 
-.video pre {
-    color: #a5a5a5;
-    margin-left: 10px;
-    letter-spacing: 1px;
-}
+    .video pre {
+        color: #a5a5a5;
+        margin-left: 10px;
+        letter-spacing: 1px;
+    }
 
-.video p {
-    color: white;
-    margin: 10px;
-    letter-spacing: 0.5px;
-}
+    .video p {
+        color: white;
+        margin: 10px;
+        letter-spacing: 0.5px;
+        font-size: 15px;
+    }
 
-.categories {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-}
+    .categories {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
 
-.categories a {
-    color: black;
-    text-decoration: none;
-    /* white-space: nowrap; */
-}
+    .categories a {
+        color: black;
+        text-decoration: none;
+        /* white-space: nowrap; */
+    }
 
-.buttons-categories {
-    background: white;
-    font-size: 15px;
-    margin: 10px;
-    letter-spacing: 0.5px;
-    border-radius: 15px;
-    border-style: none;
-    width: 15%;
-    height: 30px;
-    text-align: center;
-}
+    .buttons-categories {
+        background: white;
+        font-size: 15px;
+        margin: 10px;
+        letter-spacing: 0.5px;
+        border-radius: 15px;
+        border-style: none;
+        width: 15%;
+        height: 30px;
+        text-align: center;
+    }
 
-.multicolortext1 .director1 {
-    color: white;
-    margin-left: 10px;
-    letter-spacing: 0.5px; 
-}
+    .multicolortext1 .director1 {
+        color: white;
+        margin-left: 10px;
+        letter-spacing: 0.5px; 
+        font-size: 15px;
+    }
 
-.multicolortext1 .director2 {
-    color: #a5a5a5;
-    letter-spacing: 0.5px;
-}
+    .multicolortext1 .director2 {
+        color: #a5a5a5;
+        letter-spacing: 0.5px;
+        font-size: 15px;
+    }
 
-.multicolortext2 .stars1 {
-    color: white;
-    margin-left: 10px;
-    letter-spacing: 0.5px;
-}
+    .multicolortext2 .stars1 {
+        color: white;
+        margin-left: 10px;
+        letter-spacing: 0.5px;
+        font-size: 15px;
+    }
 
-.multicolortext2 .stars2 {
-    color: #a5a5a5;
-    letter-spacing: 0.5px;
-}
+    .multicolortext2 .stars2 {
+        color: #a5a5a5;
+        letter-spacing: 0.5px;
+        font-size: 15px;
+    }
 
-.video h2 {
-    color: white;
-    font-size: 30px;
-    margin: 10px;
-    letter-spacing: 0.5px;
-    text-align: left;
-}
+    .video h2 {
+        color: white;
+        font-size: 30px;
+        margin: 10px;
+        letter-spacing: 0.5px;
+        text-align: left;
+    }
 
-.buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-.buttons a {
-    color: black;
-    text-decoration: none;
-    /* white-space: nowrap; */
-}
+    .buttons a {
+        color: black;
+        text-decoration: none;
+        /* white-space: nowrap; */
+    }
 
-.addtocart {
-    background: #ff9900;
-    font-size: 20px;
-    /* padding: 10px; */
-    margin: 10px;
-    letter-spacing: 0.5px;
-    border-radius: 15px;
-    border-style: none;
-    width: 35%;
-    text-align: center;
-}
+    .addtocart {
+        background: #ff9900;
+        font-size: 20px;
+        /* padding: 10px; */
+        margin: 10px;
+        letter-spacing: 0.5px;
+        border-radius: 15px;
+        border-style: none;
+        width: 35%;
+        text-align: center;
+        font-size: 20px;
+    }
 
-.watchnow {
-    background: #47CB19;
-    font-size: 20px;
-    padding: 10px;
-    margin: 10px;
-    letter-spacing: 0.5px;
-    border-radius: 15px;
-    border-style: none;
-    width: 35%;
-    text-align: center;
-}
+    .watchnow {
+        background: #47CB19;
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px;
+        letter-spacing: 0.5px;
+        border-radius: 15px;
+        border-style: none;
+        width: 35%;
+        text-align: center;
+        font-size: 20px;
+    }
 
 }

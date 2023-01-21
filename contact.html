@@ -8,22 +8,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/header.css">
-    <link rel="stylesheet" href="/footer.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
     <script src="https://kit.fontawesome.com/6fb668811a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <logo>
-        <img class="logo" src="/images/logo.png" alt="logo">
+        <img class="logo" src="images/logo.png" alt="logo">
     </logo>
     <header>
         <input type="checkbox" id="menu-checkbox">
         <label for="menu-checkbox" class="hamburger-icon"><i class="fas fa-bars"></i></label>
         <nav>
-            <a href="/index.html">HOME</a>
-            <a href="/about.html">ABOUT</a>
-            <a href="/contact.html">CONTACT</a>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
         </nav> 
     </header>
 
@@ -36,7 +36,7 @@
         <img src="/images/Location.png" alt="Location">
     </div>
 
-    <h4>Send us a message</h4>
+    <!-- <h4>Send us a message</h4>
     <div class="form1">
         <input type="text" placeholder="First">
         <input type="text" placeholder="Last">
@@ -55,7 +55,34 @@
             <a href="/index.html">
                 Send message
             </a>
-        </button> 
+        </button>  -->
+
+    <form>
+        <div class="input">
+                <label>First</label>
+                    <input type="text" placeholder="First"/>
+            </div>
+            <div class="input">
+                <label>Last name</label>
+                    <input type="text" placeholder="Last name"/>
+            </div>
+            <div class="input email">
+                <label>Email</label>
+                    <input type="email" placeholder="email"/>
+            </div>
+            <div class="text-area">
+                <label>Type your message here</label>
+                <textarea rows="4" cols="30"></textarea>
+            </div>
+                
+            <div class="action">
+                <button class="btn">
+                    Submit
+            </div>
+        </div>    
+    </form>
+      
+
 
     <div class="footer">
         <section>

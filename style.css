@@ -174,6 +174,36 @@ subheader2 a {
     } 
 }
 
+/* About
+--------------------------- */
+
+@media only screen and (max-width: 400px) {
+    .about {
+        color: white;
+        text-align: center;
+    }
+
+    .about h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    .about img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about p {
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 25px;
+        letter-spacing: 0.5px;
+        font-size: 20px;
+    }
+
+}
+
 /* Contact
 ---------------- */
 @media only screen and (max-width: 400px) {
@@ -210,7 +240,9 @@ subheader2 a {
         justify-content: center;
     }
 
-    h4 {
+
+
+    /* h4 {
         color: white;
         background: #ff9900;
         text-align: center;
@@ -276,7 +308,7 @@ subheader2 a {
         color: white;
         text-decoration: none;
         /* white-space: nowrap; */
-    }
+    /* } */
     
     .sendmessage {
         background: #ff9900;
@@ -289,7 +321,178 @@ subheader2 a {
         width: 35%;
         text-align: center;
         margin-bottom: 50px;
-    }
+    } 
 
 }
 
+/* categories 
+------------------ */
+
+@media only screen and (max-width: 400px) {
+    .categories-page {
+        color: white;
+        text-align: center;
+    }
+
+    .categories h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    .cta-circles-categories img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .cta-circles-categories {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 30px;
+    }
+    
+    .cta-circles-categories {
+        padding: 20px;
+        margin-bottom: 50px;
+    } 
+
+    .categories-headings {
+        color: white;
+        text-align: center;
+    }
+
+    .categories-headings h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+}
+
+/* All videos 
+------------------ */
+
+@media only screen and (max-width: 400px) {
+    .all-videos {
+        color: white;
+        text-align: center;
+    }
+
+    .all-videos h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .all-videos-images img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .all-videos-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 15px;
+        padding: 10px;
+    }
+}
+
+/* Most popular 
+-------------------- */
+
+@media only screen and (max-width: 400px) {
+    .most-popular {
+        color: white;
+        text-align: center;
+    }
+
+    .most-popular h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .most-popular-images img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .most-popular-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 15px;
+        padding: 10px;
+    }
+}
+
+/* Collections 
+---------------------- */
+
+a only screen and (max-width: 400px) {
+    .collections {
+        color: white;
+        text-align: center;
+    }
+
+    .collections h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+}
+
+/* My videos 
+----------------- */
+@media only screen and (max-width: 400px) {
+    .my-videos-page {
+        color: white;
+        text-align: center;
+    }
+
+    .my-videos-page h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .my-videos-page-images img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .my-videos-page-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 15px;
+        padding: 10px;
+    }
+}
+
+/* Just added 
+-------------------------- */
+@media only screen and (max-width: 400px) {
+    .just-added-page {
+        color: white;
+        text-align: center;
+    }
+
+    .just-added-page h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .just-added-page-images img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .just-added-page-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 15px;
+        padding: 10px;
+    }
+}

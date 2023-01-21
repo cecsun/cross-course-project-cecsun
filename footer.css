@@ -1,10 +1,13 @@
 .footer {
-    position: relative;
+    /* position: relative; */
+    display: block;
     background: black;
     color: white;
     padding: 30px;
     font-size: 1rem;
     text-align: center;
+    margin-bottom: 0;
+    margin-top: 50px;
 }
 
 .footer a {
