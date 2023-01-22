@@ -1,6 +1,7 @@
 .logo {
     margin: auto;
-    display: block;
+    display: flex;
+    justify-content: center;
     background: black;
 }
 

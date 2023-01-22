@@ -14,9 +14,9 @@
     <script src="https://kit.fontawesome.com/6fb668811a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <logo>
-        <img class="logo" src="images/logo.png" alt="logo">
-    </logo>
+    <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+    </div>
     <header>
         <input type="checkbox" id="menu-checkbox">
         <label for="menu-checkbox" class="hamburger-icon"><i class="fas fa-bars"></i></label>
@@ -36,54 +36,33 @@
         <img src="/images/Location.png" alt="Location">
     </div>
 
-    <!-- <h4>Send us a message</h4>
-    <div class="form1">
-        <input type="text" placeholder="First">
-        <input type="text" placeholder="Last">
-    </div>
-    <div class="form2">
-        <input type="text" placeholder="Email">
-    </div>
-    <div class="message">
-    <p>Type your message here</p>
-    </div>
-    <div class="form3">
-        <input type="text" placeholder="">
-    </div>
-    <div class="message-button">
-        <button type="button" class="sendmessage">
-            <a href="/index.html">
-                Send message
-            </a>
-        </button>  -->
-
-    <form>
-        <div class="input">
-                <label>First</label>
-                    <input type="text" placeholder="First"/>
+    <form class="form-container">
+        <div class="form-header">
+            <h4>Send us a message</h4>
+        </div>
+        <div class="form-input">
+            <div class="form-input-margins">
+                <p>name</p>
+                <div class="input-name">
+                    <input type="text" placeholder="First" class="input-firstname"/>
+                    <input type="text" placeholder="Last" class="input-lastname"/>
+                </div>
+                <p>Email</p>
+                <input type="email" placeholder="" size="48" class="input-email"/>
+                <p>type your message here</p>
+                <textarea rows="4" cols="40" class="message-input" ></textarea>
+                <div class="message-submit">
+                    <button type="message-button" class="btn">
+                        <a href="index.html">
+                        Send Message
+                        </a>
+                    </button>
+                </div>
+                </div>
             </div>
-            <div class="input">
-                <label>Last name</label>
-                    <input type="text" placeholder="Last name"/>
-            </div>
-            <div class="input email">
-                <label>Email</label>
-                    <input type="email" placeholder="email"/>
-            </div>
-            <div class="text-area">
-                <label>Type your message here</label>
-                <textarea rows="4" cols="30"></textarea>
-            </div>
-                
-            <div class="action">
-                <button class="btn">
-                    Submit
-            </div>
-        </div>    
+        </div>
     </form>
-      
-
-
+         
     <div class="footer">
         <section>
             <a href="#" class="fa fa-facebook"></a>
