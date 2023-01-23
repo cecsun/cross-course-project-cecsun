@@ -22,6 +22,10 @@ header {
     font-size: 1.5rem;
     margin-top: 20px;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 
 nav {
@@ -38,17 +42,14 @@ nav a {
     font-size: 1.2rem;
 }
 
+header .cart {
+    color: white;
+}
+
 @media (min-width: 401px) {
     nav {
         display: block;
         position: static;
-        /* display: flex;
-        background: transparent;
-        box-shadow: none;
-        width: 100%;
-        justify-content: center;
-        align-items: flex-end;
-        height: 100%; */
     }
 
     .hamburger-icon {
@@ -60,31 +61,3 @@ nav a {
     }
 }
 
-/* Search Bar 
-------------------- */
-
-/* @media (max-width: 400px) {
-    .search-form {
-        margin: auto;
-        float: right;
-        margin-right: 10px;
-    }
-
-    input {
-        padding: 10px;
-        border: none;
-        font-size: 16px;
-    }
-
-    button {
-        float: right;
-        background: black
-        color: white
-        border-radius: 0 5px 5px 0;
-        cursor: pointer;
-        position: relative;
-        padding: 7px;
-        border: none;
-        font-size: 16px;
-    }
-} */
