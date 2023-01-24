@@ -63,7 +63,6 @@ html, body {
 
     p {
         font-size: 18px;
-        font-weight: bold;
     }
 
     pre {
@@ -92,7 +91,6 @@ html, body {
     .total .dollar {
         color: black;
         font-size: 18px;
-        font-weight: bold;
     }
 
     .total p {
