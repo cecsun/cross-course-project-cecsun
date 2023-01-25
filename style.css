@@ -12,7 +12,7 @@ html, body {
     flex-direction: column;
 }
 
-.content {
+main {
     flex: 1 0 auto;
 }
 
@@ -577,8 +577,33 @@ subheader a {
 
 /* Most popular 
 -------------------- */
+@media (min-width: 501px) {
+    .most-popular {
+        color: white;
+        text-align: center;
+    }
 
-@media only screen and (max-width: 400px) {
+    .most-popular h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .most-popular-images img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .most-popular-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+        row-gap: 20px;
+        padding: 20px;
+        background-color: #0008;
+    }
+}
+
+@media (max-width: 500px) {
     .most-popular {
         color: white;
         text-align: center;
@@ -606,8 +631,6 @@ subheader a {
 
 /* Collections 
 ---------------------- */
-
-@media only screen and (max-width: 400px) {
     .collections {
         color: white;
         text-align: center;
@@ -617,11 +640,36 @@ subheader a {
         font-size: 50px;
         margin-bottom: 30px;
     }
-}
 
 /* My videos 
 ----------------- */
-@media only screen and (max-width: 400px) {
+@media (min-width: 501px) {
+    .my-videos-page {
+        color: white;
+        text-align: center;
+    }
+
+    .my-videos-page h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .my-videos-page-images img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .my-videos-page-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+        row-gap: 20px;
+        padding: 20px;
+        background-color: #0008;
+    }
+}
+
+@media (max-width: 500px) {
     .my-videos-page {
         color: white;
         text-align: center;
@@ -649,7 +697,33 @@ subheader a {
 
 /* Just added 
 -------------------------- */
-@media only screen and (max-width: 400px) {
+@media (min-width: 501px) {
+    .just-added-page {
+        color: white;
+        text-align: center;
+    }
+
+    .just-added-page h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .just-added-page-images img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .just-added-page-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+        row-gap: 20px;
+        padding: 20px;
+        background-color: #0008;
+    }
+}
+
+@media (max-width: 500px) {
     .just-added-page {
         color: white;
         text-align: center;
