@@ -35,13 +35,6 @@ main {
 
 /* Subheader
 ----------------- */
-
-@media (min-width: 501px) {
-    subheader {
-        margin-top: 200px;
-    }
-}
-
 subheader {
     display: flex;
     flex-direction: row;
