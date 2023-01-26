@@ -12,6 +12,13 @@ html, body {
     flex-direction: column;
 }
 
+@media (min-width: 501px) {
+    main {
+        margin-top: 250px;
+    }
+
+}
+
 /* main {
     flex: 1 0 auto;
 } */
