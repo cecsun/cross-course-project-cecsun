@@ -16,12 +16,7 @@ html, body {
     main {
         margin-top: 250px;
     }
-
 }
-
-/* main {
-    flex: 1 0 auto;
-} */
 
 /* Background - Homepage
 -------------- */
@@ -191,19 +186,20 @@ html, body {
         background: #0008;
         margin-bottom: 50px;
         margin-top: 50px;
+        
     }
 
     .about img {
-        width: 100%;
+        width: 80%;
         height: 100%;
     }
 
     .about p {
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-top: 25px;
+        margin-right: 100px;
         letter-spacing: 0.5px;
-        font-size: 20px;
+        padding: 20px;
+        font-size: 30px;
+        text-align: left;
     }
 }
 
@@ -263,18 +259,16 @@ html, body {
         margin-top: 15px;
         flex-wrap: wrap;
         justify-content: center;
-        width: 60%;
-        height: auto;
+        width: 20%;
+        height: 20%;
     }
 
     .form-container {
-        margin-top: 30px;
+        margin-top: 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 40px;
-        margin-right: 40px;
-        background-color: white;
+        background-color: white;    
     }
 
     .form-header {

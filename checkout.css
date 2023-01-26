@@ -11,13 +11,8 @@ html, body {
     flex-direction: column;
 }
 
-/* .content {
-    flex: 1 0 auto;
-} */
-
 .header-checkout {
     background: black;
-    margin: 0;
     display: flex;
     justify-content: center;
 }
