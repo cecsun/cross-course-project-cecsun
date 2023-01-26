@@ -12,6 +12,15 @@
         display: block;
     }
 
+    nav {
+        display: block;
+        position: static;
+    }
+
+    .hamburger-icon {
+        display: none;
+    }
+
     header {
         background: url(/images/logo.png);
         background-repeat: no-repeat;
@@ -27,7 +36,7 @@
     }
 
     nav a {
-        /* display: block; */
+        display: inline-block;
         color: white;
         text-decoration: none;
         padding: 20px 30px;
@@ -38,35 +47,10 @@
         color: white;
         font-size: 35px;
         position: absolute;
-        right: 50px;
+        right: 80px;
         top: 50px;
     }
 }
-
-
-
-@media (min-width: 501px) {
-    nav {
-        display: block;
-        position: static;
-    }
-
-    .hamburger-icon {
-        display: none;
-    }
-
-    nav a {
-        display: inline-block;
-    }
-}
-
-
-
-
-
-
-
-
 
 @media (max-width: 500px) {
         .logo {
