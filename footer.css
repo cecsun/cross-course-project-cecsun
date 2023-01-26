@@ -1,4 +1,4 @@
-.footer {
+footer {
     /* position: relative; */
     display: block;
     background: black;
@@ -10,14 +10,14 @@
     margin-top: 50px;
 }
 
-.footer a {
+footer a {
     color: white;
     text-decoration: none;
     padding: 5px;
     margin-bottom: 5px;
 }
 
-.footer p {
+footer p {
     font-size: 10px;
     font-weight: normal;
 }

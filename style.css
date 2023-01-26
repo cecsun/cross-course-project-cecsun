@@ -12,9 +12,9 @@ html, body {
     flex-direction: column;
 }
 
-main {
+/* main {
     flex: 1 0 auto;
-}
+} */
 
 /* Background - Homepage
 -------------- */
@@ -35,18 +35,18 @@ main {
 
 /* Subheader
 ----------------- */
-subheader {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
+    .subheader {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
-subheader a {
-    color: white;
-}
+    .subheader a {
+        color: white;
+    }
 
 /* Images - Homepage
 -------------- */
