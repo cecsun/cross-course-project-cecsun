@@ -1,21 +1,42 @@
+.logo {
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+nav,
+#menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+
+header {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: 1.2rem;
+}
+
+header .cart {
+    color: white;
+}
+
 @media (min-width: 501px) {
     .logo {
-        background: black;
         position: fixed;
         width: 100%;
-        display: flex;
-        justify-content: center;
     }
     
-    nav,
-    #menu-checkbox {
-        display: none;
-    }
-    
-    #menu-checkbox:checked ~ nav {
-        display: block;
-    }
-
     nav {
         display: block;
         position: static;
@@ -28,14 +49,10 @@
     header {
         position: fixed;
         background: black;
-        color: white;
         width: 100%;
         top: 120px;
         padding: 10px;
         font-size: 30px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
     }
     
     /* nav {
@@ -46,15 +63,12 @@
     
     nav a {
         display: inline-block;
-        color: white;
-        text-decoration: none;
         margin-inline-end: 50px;
         font-size: 30px;
         padding: 10px;
     }
 
     header .cart {
-        color: white;
         margin-right: 30px;
         font-size: 30px;
         padding: 10px;
@@ -62,52 +76,28 @@
 }
 
 @media (max-width: 500px) {
-        .logo {
-            margin: auto;
-            display: flex;
-            justify-content: center;
-            background: black;
-        }
-        
-        nav,
-        #menu-checkbox {
-            display: none;
-        }
-        
-        #menu-checkbox:checked ~ nav {
-            display: block;
-        }
-        
-        header {
-            position: relative;
-            background: #FF9900;
-            color: white;
-            padding: 30px;
-            font-size: 1.5rem;
-            margin-top: 20px;
-            margin-bottom: 50px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-        
-        nav {
-            position: absolute;
-            background: #FF9900;
-            left: 0px;
-        }
-        
-        nav a {
-            display: block;
-            color: white;
-            text-decoration: none;
-            padding: 20px 30px;
-            font-size: 1.2rem;
-        }
-
-        header .cart {
-            color: white;
-            
-        }
-
+    .logo {
+        margin: auto;
+    }
+    
+    header {
+        position: relative;
+        background: #FF9900;
+        padding: 30px;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+    nav {
+        position: absolute;
+        background: #FF9900;
+        left: 0px;
+    }
+    
+    nav a {
+        display: block;
+        padding: 20px 30px;
+        font-size: 25px;
+    }
 }

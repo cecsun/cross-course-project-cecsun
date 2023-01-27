@@ -13,11 +13,31 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
-    padding: 5px;
     margin-bottom: 5px;
 }
 
 footer p {
-    font-size: 10px;
     font-weight: normal;
+}
+
+@media (min-width: 501px) {
+    footer a {
+        padding: 10px;
+    }
+    
+    footer p {
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    footer a {
+        padding: 5px;
+    }
+    
+    footer p {
+        padding: 5px;
+        font-size: 10px;
+    }
 }
