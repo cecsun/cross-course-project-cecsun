@@ -64,7 +64,7 @@ main {
     flex-direction: column;
 }
 
-p {
+p, .total p {
     font-size: 18px;
 }
 
@@ -96,10 +96,6 @@ hr {
     font-size: 18px;
 }
 
-.total p {
-    font-size: 18px;
-}
-
 .checkout-container {
     margin-top: 50px;
     display: flex;
@@ -128,7 +124,6 @@ hr {
 }
 
 .checkout-input {
-    /* width: 100%; */
     background: white;
     font-size: 15px;
 }

@@ -55,12 +55,6 @@ header .cart {
         font-size: 30px;
     }
     
-    /* nav {
-        position: absolute;
-        background: #FF9900;
-        left: 0px;
-    } */
-    
     nav a {
         display: inline-block;
         margin-inline-end: 50px;

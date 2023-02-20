@@ -36,21 +36,12 @@ body {
     background-color: black;
 }
 
-.just-added img {
+.just-added img, .my-videos img {
     width: 100%;
     height: 100%;
 }
 
-.just-added {
-    display: grid;
-}
-
-.my-videos img {
-    width: 100%;
-    height: 100%;
-}
-
-.my-videos {
+.just-added, .my-videos {
     display: grid;
 }
 
@@ -68,7 +59,7 @@ body {
     height: 100%;
 }
 
-.about {
+.about, .contact {
     color: white;
     text-align: center;
 }
@@ -80,20 +71,11 @@ body {
     margin-right: 45%;
 }
 
-.contact {
-    color: white;
-    text-align: center;
-}
-
 .contact h1 {
     font-size: 50px;
 }
 
-.contact h2 {
-    font-size: 30px;
-}
-
-.contact h3 {
+.contact h2, h3 {
     font-size: 30px;
 }
 
@@ -185,17 +167,15 @@ body {
     padding: 10px;
 }
 
-.categories-page {
-    color: white;
-    text-align: center;
-}
-
-.categories-page h1 {
+.categories-page h1, .all-videos h1, .most-popular h1, .collections h1, .my-videos-page h1, .just-added-page h1, .categories-headings h1 {
     font-size: 50px;
     margin-bottom: 30px;
     background-color: black;
-    margin-left: 45%;
-    margin-right: 45%;
+}
+
+.categories-page, .all-videos, .most-popular, .collections, .my-videos-page, .just-added-page, .categories-headings {
+    color: white;
+    text-align: center;
 }
 
 .cta-circles-categories img {
@@ -207,102 +187,9 @@ body {
     display: grid;
 }
 
-.all-videos {
-    color: white;
-    text-align: center;
-}
-
-.all-videos h1 {
-    font-size: 50px;
-    margin-bottom: 30px;
-    background-color: black;
-    margin-left: 44%;
-    margin-right: 44%;
-}
-
-.all-videos-images img {
+.all-videos-images img, .most-popular-images img, .my-videos-page-images img, .just-added-page-images img {
     width: 100%;
     height: 100%;
-}
-
-.most-popular {
-    color: white;
-    text-align: center;
-}
-
-.most-popular h1 {
-    font-size: 50px;
-    margin-bottom: 30px;
-    background-color: black;
-    margin-left: 45%;
-    margin-right: 45%;
-}
-
-.most-popular-images img {
-    width: 100%;
-    height: 100%;
-}
-
-.collections {
-    color: white;
-    text-align: center;
-}
-
-.collections h1 {
-    font-size: 50px;
-    margin-bottom: 30px;
-    background-color: black;
-    margin-left: 45%;
-    margin-right: 45%;
-}
-
-.my-videos-page {
-    color: white;
-    text-align: center;
-}
-
-.my-videos-page h1 {
-    font-size: 50px;
-    margin-bottom: 30px;
-    background-color: black;
-    margin-left: 45%;
-    margin-right: 45%;
-}
-
-.my-videos-page-images img {
-    width: 100%;
-    height: 100%;
-}
-
-.just-added-page {
-    color: white;
-    text-align: center;
-}
-
-.just-added-page h1 {
-    font-size: 50px;
-    margin-bottom: 30px;
-    background-color: black;
-    margin-left: 45%;
-    margin-right: 45%;
-}
-
-.just-added-page-images img {
-    width: 100%;
-    height: 100%;
-}
-
-.categories-headings {
-    color: white;
-    text-align: center;
-}
-
-.categories-headings h1 {
-    font-size: 50px;
-    margin-bottom: 30px;
-    background-color: black;
-    margin-left: 45%;
-    margin-right: 45%;
 }
 
 @media (min-width: 501px) {
@@ -319,21 +206,12 @@ body {
         margin-right: 20px;
     }
 
-    .just-added {
+    .just-added, .my-videos {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-column-gap: 20px;
     }
 
-    .my-videos {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-column-gap: 20px;
-    }
-
-    .just-added {
-        padding: 20px;
-    }
-
-    .my-videos {
+    .just-added, .my-videos {
         padding: 20px;
     }
 
@@ -345,6 +223,11 @@ body {
         margin-left: 50px;
         margin-right: 50px;
         gap: 50px;
+    }
+
+    .categories-page h1, .most-popular h1, .collections h1, .my-videos-page h1, .just-added-page h1, .all-videos h1, .categories-headings h1 {
+        margin-left: 44%;
+        margin-right: 44%;
     }
 
     .about-container {
@@ -421,34 +304,7 @@ body {
         margin-top: 50px;
     }
 
-    .all-videos-images {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-column-gap: 20px;
-        row-gap: 20px;
-        padding: 20px;
-        background-color: #0008;
-    }
-
-    .most-popular-images {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-column-gap: 20px;
-        row-gap: 20px;
-        padding: 20px;
-        background-color: #0008;
-    }
-
-    .my-videos-page-images {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-column-gap: 20px;
-        row-gap: 20px;
-        padding: 20px;
-        background-color: #0008;
-    }
-
-    .just-added-page-images {
+    .all-videos-images, .most-popular-images, .my-videos-page-images, .just-added-page-images {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-column-gap: 20px;
@@ -468,27 +324,16 @@ body {
         margin-right: 10px;
     }
 
-    .just-added {
+    .just-added, .my-videos {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         column-gap: 15px;
         row-gap: 15px;
     }
     
-    .my-videos {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        column-gap: 15px;
-        row-gap: 15px;
-    }
-    
-    .just-added {
+    .just-added, .my-videos {
         padding: 10px;
     }
-    
-    .my-videos {
-        padding: 10px;
-    }  
 
     .cta-circles-home {
         display: grid;
@@ -526,16 +371,12 @@ body {
         margin-bottom: 30px;
     }
 
-    .contact h2 p {
+    .contact h2 p, h3 p {
         font-size: 15px;
     }
 
     .contact h3 {
         margin-top: 30px;
-    }
-
-    .contact h3 p {
-        font-size: 15px;
     }
 
     .contact img {
@@ -566,34 +407,7 @@ body {
         margin-bottom: 50px;
     } 
 
-    .all-videos-images {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        column-gap: 15px;
-        row-gap: 15px;
-        padding: 10px;
-    }
-
-    .most-popular-images {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        column-gap: 15px;
-        row-gap: 15px;
-        padding: 10px;
-    }
-
-    .my-videos-page-images {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        column-gap: 15px;
-        row-gap: 15px;
-        padding: 10px;
-    }
-
-    .just-added-page-images {
+    .all-videos-images, .most-popular-images, .my-videos-page-images, .just-added-page-images {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;

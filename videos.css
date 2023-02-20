@@ -17,6 +17,10 @@ main {
     flex: 1 0 auto;
 }
 
+.hide {
+    display: none;
+}
+
 .video img {
     width: 100%;
     height: 100%;
@@ -61,24 +65,13 @@ main {
     text-align: center;
 }
 
-.multicolortext1 .director1 {
+.multicolortext1 .director1, .multicolortext2 .stars1 {
     color: white;
     margin-left: 10px;
     letter-spacing: 0.5px;
 }
 
-.multicolortext1 .director2 {
-    color: #a5a5a5;
-    letter-spacing: 0.5px;
-}
-
-.multicolortext2 .stars1 {
-    color: white;
-    margin-left: 10px;
-    letter-spacing: 0.5px;
-}
-
-.multicolortext2 .stars2 {
+.multicolortext1 .director2, .multicolortext2 .stars2 {
     color: #a5a5a5;
     letter-spacing: 0.5px;
 }
