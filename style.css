@@ -181,7 +181,14 @@ body {
 .categories-page {
     color: white;
     text-align: center;
+}
+
+.categories-page h1 {
     font-size: 50px;
+    margin-bottom: 30px;
+    background-color: black;
+    margin-left: 45%;
+    margin-right: 45%;
 }
 
 .cta-circles-categories img {
@@ -202,8 +209,8 @@ body {
     font-size: 50px;
     margin-bottom: 30px;
     background-color: black;
-    margin-left: 45%;
-    margin-right: 45%;
+    margin-left: 44%;
+    margin-right: 44%;
 }
 
 .all-videos-images img {
