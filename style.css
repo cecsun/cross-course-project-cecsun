@@ -80,12 +80,6 @@ body {
     margin-right: 45%;
 }
 
-.contact-page {
-    background-color: black;
-    margin-left: 35%;
-    margin-right: 35%;
-}
-
 .contact {
     color: white;
     text-align: center;
@@ -378,6 +372,12 @@ body {
         font-size: 30px;
         text-align: left;
     }
+
+    .contact-page {
+        background-color: black;
+        margin-left: 35%;
+        margin-right: 35%;
+    }    
 
     .contact h1 {
         margin-bottom: 50px;
