@@ -20,6 +20,10 @@ body {
     background-size: cover;
 }
 
+.hide {
+    display: none;
+}
+
 .subheader {
     display: flex;
     flex-direction: row;
