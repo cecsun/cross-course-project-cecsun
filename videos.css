@@ -154,19 +154,7 @@ main {
         width: 10%;     
     }
 
-    .multicolortext1 .director1 { 
-        font-size: 20px;
-    }
-
-    .multicolortext1 .director2 {
-        font-size: 20px;
-    }
-
-    .multicolortext2 .stars1 {
-        font-size: 20px;
-    }
-
-    .multicolortext2 .stars2 {
+    .multicolortext1 .director1, .multicolortext1 .director2, .multicolortext2 .stars1, .multicolortext2 .stars2 { 
         font-size: 20px;
     }
 
@@ -174,16 +162,11 @@ main {
         font-size: 50px;
     }
 
-
     .buttons a {
         font-size: 30px;
     }
 
-    .addtocart {
-        width: 20%;
-    }
-
-    .watchnow {
+    .addtocart, .watchnow {
         width: 20%;
     }
 }
@@ -193,11 +176,7 @@ main {
         font-size: 35px;
     }
 
-    .video pre {
-        font-size: 15px;
-    }
-
-    .video p {
+    .video pre, .video p {
         font-size: 15px;
     }
 
@@ -206,19 +185,7 @@ main {
         width: 15%;
     }
 
-    .multicolortext1 .director1 {
-        font-size: 15px;
-    }
-
-    .multicolortext1 .director2 {
-        font-size: 15px;
-    }
-
-    .multicolortext2 .stars1 {
-        font-size: 15px;
-    }
-
-    .multicolortext2 .stars2 {
+    .multicolortext1 .director1, .multicolortext1 .director2, .multicolortext2 .stars1, .multicolortext2 .stars2 {
         font-size: 15px;
     }
 
@@ -230,11 +197,7 @@ main {
         font-size: 20px;
     }
 
-    .addtocart {
-        width: 35%;
-    }
-
-    .watchnow {
+    .addtocart, .watchnow {
         width: 35%;
     }
 }
