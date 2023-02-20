@@ -201,6 +201,9 @@ body {
 .all-videos h1 {
     font-size: 50px;
     margin-bottom: 30px;
+    background-color: black;
+    margin-left: 45%;
+    margin-right: 45%;
 }
 
 .all-videos-images img {
@@ -216,6 +219,9 @@ body {
 .most-popular h1 {
     font-size: 50px;
     margin-bottom: 30px;
+    background-color: black;
+    margin-left: 45%;
+    margin-right: 45%;
 }
 
 .most-popular-images img {
@@ -231,6 +237,9 @@ body {
 .collections h1 {
     font-size: 50px;
     margin-bottom: 30px;
+    background-color: black;
+    margin-left: 45%;
+    margin-right: 45%;
 }
 
 .my-videos-page {
@@ -277,6 +286,9 @@ body {
 .categories-headings h1 {
     font-size: 50px;
     margin-bottom: 30px;
+    background-color: black;
+    margin-left: 45%;
+    margin-right: 45%;
 }
 
 @media (min-width: 501px) {
