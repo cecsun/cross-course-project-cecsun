@@ -140,6 +140,10 @@ body {
     margin-bottom: 20px;
 }
 
+.form-input label {
+    display: none;
+}
+
 .input-name {
     display: flex;
     flex-direction: row;
