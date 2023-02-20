@@ -75,6 +75,9 @@ body {
 
 .about h1 {
     font-size: 50px;
+    background-color: black;
+    margin-left: 45%;
+    margin-right: 45%;
 }
 
 .contact {
@@ -84,14 +87,23 @@ body {
 
 .contact h1 {
     font-size: 50px;
+    background-color: black;
+    margin-left: 47%;
+    margin-right: 47%;
 }
 
 .contact h2 {
     font-size: 30px;
+    background-color: black;
+    margin-left: 48%;
+    margin-right: 48%;
 }
 
 .contact h3 {
     font-size: 30px;
+    background-color: black;
+    margin-left: 48%;
+    margin-right: 48%;
 }
 
 .contact img {
@@ -113,7 +125,7 @@ body {
 
 .form-header h4 {
     text-align: center;
-    color:white;
+    color: black;
     font-size: 30px;
     padding: 10px;
 }
@@ -164,7 +176,7 @@ body {
 }
 
 .message-submit a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
