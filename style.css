@@ -241,6 +241,9 @@ body {
 .my-videos-page h1 {
     font-size: 50px;
     margin-bottom: 30px;
+    background-color: black;
+    margin-left: 45%;
+    margin-right: 45%;
 }
 
 .my-videos-page-images img {
@@ -256,6 +259,9 @@ body {
 .just-added-page h1 {
     font-size: 50px;
     margin-bottom: 30px;
+    background-color: black;
+    margin-left: 45%;
+    margin-right: 45%;
 }
 
 .just-added-page-images img {
