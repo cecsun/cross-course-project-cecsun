@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="/footer.css">
     <link rel="stylesheet" href="/videos.css">
     <script src="https://kit.fontawesome.com/6fb668811a.js" crossorigin="anonymous"></script>
+    <script defer src="/js/video.js"></script>
+
 </head>
 <body>
     <div class="logo">
@@ -32,26 +34,14 @@
 
     <main>
         <div class="video">
-            <img src="/images/The-Batman-bilde-1.webp" alt="batman">
+            <img alt="batman" class="video-image">
             <div class="video-info-container">
-                <h1>the batman</h1>
-                <pre>2022             PG-13          2h 56m</pre>
-                <p>when a sadistic serial killer begins murdering key political figures in Gotham, batman is forced to investigate the city's hidden corruption and question his family's involvment.</p>
+                <h1 class="video-title"></h1>
+                <pre class="video-released"></pre>
+                <p class="video-description"></p>
                 <div class="categories">
                     <button type="button" class="buttons-categories">
-                        <a href="/categories.html">
-                            Action
-                        </a>
-                    </button>
-                    <button type="button" class="buttons-categories">
-                        <a href="/categories.html">
-                            Crime
-                        </a>
-                    </button>
-                    <button type="button" class="buttons-categories">
-                        <a href="/categories.html">
-                            Drama
-                        </a>
+                        <a href="/categories.html" class="video-genre"></a>
                     </button>
                 </div>
                 <div class="multicolortext1">
@@ -62,7 +52,7 @@
                     <span class="stars1">Stars</span>
                     <span class="stars2">Robert Pattinson, Zoë Kravitz, Jeffrey Wright</span>
                 </div>
-                <h2>12$</h2>
+                <h2 class="video-price"></h2>
                 <div class="buttons">
                     <button type="button" class="addtocart">
                         <a href="/checkout.html">
