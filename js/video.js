@@ -1,25 +1,26 @@
+
 console.log ( 'Hello World!' );
 const all = "https://api.noroff.dev/api/v1/square-eyes";
 
-async function fetchData(url) {
+export async function fetchData(url) {
     const payload = await fetch(url);
     const data = await payload.json();
     return data;
 }
 
-async function fecthDataAll() {
+export async function fetchDataAll() {
     const data = await fetchData(all);
     console.log({data});
 
 }
 
-async function fetchDataByID(id) {
+export async function fetchDataByID(id) {
     const data = await fetchData(all + "/" + id);
     return data;
 }
 
-const batmanID = "972df6d3-b4e8-44c1-9dec-cadd3b35102e"
-const hobbsID = "352ba432-5b5d-4ccc-9aba-f2704c500cf3"
+
+
 async function updateVideoHtml(id) {
     const data = await fetchDataByID(id);
     console.log(data);
@@ -37,4 +38,12 @@ async function updateVideoHtml(id) {
     videoImage.src = data.image;
 }
 
-updateVideoHtml(batmanID)
+function getIdParam() {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const id = urlParams.get("id");
+    return id;
+}
+
+const id = getIdParam();
+updateVideoHtml(id)
