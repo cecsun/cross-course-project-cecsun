@@ -18,7 +18,6 @@ async function fetchDataByID(id) {
     return data;
 }
 
-
 async function showAllVideos() {
     const videos = await fetchDataAll();
     // console.log(data);
@@ -32,9 +31,6 @@ async function showAllVideos() {
         a.appendChild(img);
         videosHtml.appendChild(a);
     });
-
-
-
 }
 
 showAllVideos();
