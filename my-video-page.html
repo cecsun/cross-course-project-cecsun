@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The product listing page of Square Eyes">
+    <title>The Batman</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/header.css">
+    <link rel="stylesheet" href="/footer.css">
+    <link rel="stylesheet" href="/videos.css">
+    <script src="https://kit.fontawesome.com/6fb668811a.js" crossorigin="anonymous"></script>
+    <script type="module" src="/js/my-video.js"></script>
+
+</head>
+<body>
+    <div class="logo">
+        <a href="/index.html"><img src="/images/logo.png" alt="logo"></a>
+    </div>
+
+    <header>
+        <input type="checkbox" id="menu-checkbox">
+        <label for="menu-checkbox" class="hamburger-icon"><span class="hide">Anything</span><i class="fas fa-bars"></i></label>
+        <nav>
+            <a href="/index.html">HOME</a>
+            <a href="/about.html">ABOUT</a>
+            <a href="/contact.html">CONTACT</a>
+        </nav>
+        <a href="/checkout.html" class="cart" alt="cart content"><span class="hide">Anything</span><i class="fa fa-cart-shopping"></i></a>
+    </header>
+
+    <main>
+        <div class="video">
+            <img alt="video-image" class="video-image">
+            <div class="video-info-container">
+                <h1 class="video-title"></h1>
+                <pre class="video-released"></pre>
+                <p class="video-description"></p>
+                <div class="categories">
+                    <button type="button" class="buttons-categories">
+                        <a href="/categories.html" class="video-genre"></a>
+                    </button>
+                </div>
+                <div class="multicolortext1">
+                    <span class="director1">Director</span>
+                    <span class="director2">Matt Reeves</span>
+                </div>
+                <div class="multicolortext2">
+                    <span class="stars1">Stars</span>
+                    <span class="stars2">Robert Pattinson, Zoë Kravitz, Jeffrey Wright</span>
+                </div>
+                <h2 class="video-price"></h2>
+                <div class="buttons">
+                    <button type="button" class="addtocart">
+                        <a href="/checkout.html">
+                            Add to cart
+                        </a>
+                    </button>
+                    <button type="button" class="watchnow">
+                        <a href="https://www.youtube.com/watch?v=-FZ-pPFAjYY">
+                            Watch now
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div>
+            <a href="#" class="fa fa-facebook"><span class="hide">Anything</span></a>
+            <a href="#" class="fa fa-twitter"><span class="hide">Anything</span></a>
+            <a href="#" class="fa fa-instagram"><span class="hide">Anything</span></a>
+        </div>
+        <p>&copy; SquareEyes. All rights reserved</p>
+    </footer>    
+</body>
+</html>
