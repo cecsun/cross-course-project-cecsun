@@ -20,8 +20,6 @@ async function fetchDataByID(id) {
 
 
 async function updateMostPopular() {
-
-    // try {
         const videos = await fetchDataAll();
         let justAddedHtml = document.querySelector(".just-added");
         let addedCounter = 0;
@@ -37,12 +35,6 @@ async function updateMostPopular() {
                 addedCounter++;
             }
         });
-
-    // } catch(error) {
-    //     console.log("An error occurred");
-    //     justAddedHtml.innerHTML = "An error occurred";
-    // }
-
 }
 
 updateMostPopular();
