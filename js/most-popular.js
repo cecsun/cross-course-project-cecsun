@@ -18,24 +18,31 @@ async function fetchDataByID(id) {
     return data;
 }
 
+let mostPopularHtml = document.querySelector(".most-popular-images");
 
 async function updateMostPopular() {
-    const videos = await fetchDataAll();
-    let mostPopularHtml = document.querySelector(".most-popular-images");
-    
-    videos.forEach(video => {
-        console.log(video);
-        if ("7.0" < video.rating) {
-            let a = document.createElement("a");
-            a.href = "videos/video.html?id=" + video.id;
-            let img = document.createElement("img");
-            img.src = video.image;
-            img.alt = video.title;
-            a.appendChild(img);
-            mostPopularHtml.appendChild(a);
-        }
-    });
 
+    try {
+        const videos = await fetchDataAll();
+        // let mostPopularHtml = document.querySelector(".most-popular-images");
+        
+        videos.forEach(video => {
+            console.log(video);
+            if ("7.0" < video.rating) {
+                let a = document.createElement("a");
+                a.href = "videos/video.html?id=" + video.id;
+                let img = document.createElement("img");
+                img.src = video.image;
+                img.alt = video.title;
+                a.appendChild(img);
+                mostPopularHtml.appendChild(a);
+            }
+        });
+
+    } catch (error) {
+            console.log("An error occurred");
+            mostPopularHtml.innerHTML = displayError("An error occurred");
+        }
     
 }
 

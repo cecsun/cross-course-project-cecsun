@@ -20,23 +20,29 @@ async function fetchDataByID(id) {
 
 
 async function updateMostPopular() {
-    const videos = await fetchDataAll();
-    let justAddedHtml = document.querySelector(".just-added");
-    let addedCounter = 0;
-    
-    videos.forEach(video => {
-        if ("2018" < video.released && addedCounter < 4) {
-            let a = document.createElement("a");
-            a.href = "videos/video.html?id=" + video.id;
-            let img = document.createElement("img");
-            img.src = video.image;
-            a.appendChild(img);
-            justAddedHtml.appendChild(a);
-            addedCounter++;
-        }
-    });
 
-    
+    // try {
+        const videos = await fetchDataAll();
+        let justAddedHtml = document.querySelector(".just-added");
+        let addedCounter = 0;
+        
+        videos.forEach(video => {
+            if ("2018" < video.released && addedCounter < 4) {
+                let a = document.createElement("a");
+                a.href = "videos/video.html?id=" + video.id;
+                let img = document.createElement("img");
+                img.src = video.image;
+                a.appendChild(img);
+                justAddedHtml.appendChild(a);
+                addedCounter++;
+            }
+        });
+
+    // } catch(error) {
+    //     console.log("An error occurred");
+    //     justAddedHtml.innerHTML = "An error occurred";
+    // }
+
 }
 
 updateMostPopular();
