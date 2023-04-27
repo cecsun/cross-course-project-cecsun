@@ -1,6 +1,6 @@
 
 console.log ( 'Hello World!' );
-const all = "https://api.noroff.dev/api/v1/square-eyess";
+const all = "https://api.noroff.dev/api/v1/square-eyes";
 
 async function fetchData(url) {
     const payload = await fetch(url);
