@@ -24,7 +24,6 @@ async function updateMostPopular() {
 
     try {
         const videos = await fetchDataAll();
-        // let mostPopularHtml = document.querySelector(".most-popular-images");
         
         videos.forEach(video => {
             console.log(video);
