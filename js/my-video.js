@@ -1,24 +1,4 @@
-console.log ( 'Hello World!' );
-const all = "https://api.noroff.dev/api/v1/square-eyes";
-
-async function fetchData(url) {
-    const payload = await fetch(url);
-    const data = await payload.json();
-    return data;
-}
-
-async function fetchDataAll() {
-    const data = await fetchData(all);
-    console.log({data});
-
-}
-
-async function fetchDataByID(id) {
-    const data = await fetchData(all + "/" + id);
-    return data;
-}
-
-
+import { fetchDataByID } from "./components/api.js";
 
 async function updateVideoHtml(id) {
     const data = await fetchDataByID(id);
