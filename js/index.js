@@ -3,12 +3,12 @@ import { fetchDataAll } from "./components/api.js";
 let justAddedHtml = document.querySelector(".just-added");
 
 async function updateMostPopular() {
-        
+
     try {
         const videos = await fetchDataAll();
             
         let addedCounter = 0;
-        
+        // justAddedHtml.innerHTML = '';
         videos.forEach(video => {
             if ("2018" < video.released && addedCounter < 4) {
                 let a = document.createElement("a");
