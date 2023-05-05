@@ -7,3 +7,5 @@ window.addEventListener("load", () => {
         document.body.removeChild("loader");
     })
 })
+
+

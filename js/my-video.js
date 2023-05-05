@@ -19,8 +19,6 @@ async function updateVideoHtml(id) {
         let videoImage = document.querySelector(".video-image");
         videoImage.src = data.image;
     } catch (error) {
-        console.log("An error occurred");
-        // videoDescription.innerHTML 
         while(myVideo.firstChild) {
             myVideo.removeChild(myVideo.lastChild);
         }

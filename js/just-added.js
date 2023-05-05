@@ -8,7 +8,6 @@ async function updateMostPopular() {
         const videos = await fetchDataAll();
         
         videos.forEach(video => {
-            console.log(video.released);
             if ("2018" < video.released) {
                 let a = document.createElement("a");
                 a.href = "videos/video.html?id=" + video.id;
@@ -19,7 +18,6 @@ async function updateMostPopular() {
             }
         });
     } catch (error) {
-        console.log("An error occurred");
         justAddedHtml.innerHTML = displayError("An error occurred");
     }
     

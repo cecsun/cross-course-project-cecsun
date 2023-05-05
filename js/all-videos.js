@@ -8,7 +8,6 @@ async function showAllVideos() {
         const videos = await fetchDataAll();
         
         videos.forEach(video => {
-            console.log(video);
             let a = document.createElement("a");
             a.href = "videos/video.html?id=" + video.id;
             let img = document.createElement("img");
@@ -17,7 +16,6 @@ async function showAllVideos() {
             videosHtml.appendChild(a);
         });
     } catch (error) {
-        console.log("An error occurred");
         videosHtml.innerHTML = displayError("An error occurred");
     }
 }
