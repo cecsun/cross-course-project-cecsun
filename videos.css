@@ -93,7 +93,7 @@ main {
     color: black;
     text-decoration: none;
     letter-spacing: 0.5px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .addtocart {
@@ -102,6 +102,7 @@ main {
     margin: 10px;
     border-radius: 15px;
     border-style: none;
+    text-align: center;
 }
 
 .watchnow {
@@ -110,6 +111,7 @@ main {
     margin: 10px;
     border-radius: 15px;
     border-style: none;
+    text-align: center;
 }
 
 @media (min-width: 501px) {
@@ -175,7 +177,7 @@ main {
     }
 
     .addtocart, .watchnow {
-        width: 20%;
+        padding: 20px;
     }
 }
 
@@ -211,6 +213,6 @@ main {
     }
 
     .addtocart, .watchnow {
-        width: 35%;
+        padding: 10px;
     }
 }

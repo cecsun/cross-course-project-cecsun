@@ -41,7 +41,7 @@ body {
 
 .subheader a {
     color: white;
-    background-color: black;
+    outline: 3px solid yellow;
 }
 
 .just-added img, .my-videos img {
