@@ -89,29 +89,33 @@ main {
     justify-content: center;
 }
 
-.buttons a {
+.buttons .addtocart a, .buttons .watchnow a {
     color: black;
     text-decoration: none;
     letter-spacing: 0.5px;
     /* text-align: center; */
 }
 
-.addtocart {
+.addtocart a {
     background: #ff9900;
-    padding: 10px;
+    /* padding: 20px; */
     margin: 10px;
     border-radius: 15px;
     border-style: none;
     text-align: center;
 }
 
-.watchnow {
+.watchnow a {
     background: #47CB19;
-    padding: 10px;
+    /* padding: 20px; */
     margin: 10px;
     border-radius: 15px;
     border-style: none;
     text-align: center;
+}
+
+.addtocart a:hover, .watchnow a:hover {
+    color: white;
 }
 
 @media (min-width: 501px) {
@@ -172,12 +176,16 @@ main {
         font-size: 50px;
     }
 
+    .buttons {
+        margin-top: 50px;
+    }
+
     .buttons a {
         font-size: 30px;
     }
 
-    .addtocart, .watchnow {
-        padding: 20px;
+    .addtocart a, .watchnow a {
+        padding: 15px;
     }
 }
 
@@ -208,11 +216,15 @@ main {
         font-size: 30px;
     }
 
+    .buttons {
+        margin-top: 30px;
+    }
+
     .buttons a {
         font-size: 20px;
     }
 
-    .addtocart, .watchnow {
+    .addtocart a, .watchnow a {
         padding: 10px;
     }
 }
