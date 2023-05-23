@@ -149,11 +149,11 @@ hr {
     display: none;
 }
 
-.checkout-submit {
+.checkout-submit, .checkout-success a {
     margin-top: 50px;
 }
 
-.checkout-submit a {
+.checkout-submit a, .checkout-success a {
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -162,6 +162,10 @@ hr {
     padding: 10px;
     background: #ff9900;
     border-radius: 15px;
+}
+
+.checkout-submit a:hover, .checkout-success a:hover {
+    color: white;
 }
 
 .check {
@@ -200,22 +204,6 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.checkout-success-button {
-    background: #ff9900;
-    border: none;
-    margin-top: 50px;
-    padding: 10px;
-    border-radius: 15px;
-}
-
-.checkout-success-button a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 15px;
-    text-transform: uppercase;
 }
 
 @media (min-width: 501px) {
