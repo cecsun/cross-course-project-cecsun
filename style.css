@@ -83,7 +83,7 @@ body {
     /* margin-left: 45%; */
     /* margin-right: 45%; */
     /* outline: 3px solid yellow; */
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
 
