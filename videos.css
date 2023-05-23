@@ -124,7 +124,7 @@ main {
     }
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 1001px) {
     .video {
         position: relative;
         display: flex;
@@ -134,20 +134,21 @@ main {
     }
 
     .video-info-container {
-        /* position: absolute; */
-        /* width: 50%; */
         margin-left: 10px;
         margin-top: 10px;
     }
-
-    /* .video img {
-        opacity: 0.7;
-    } */
     
-    .video img {
+    /* .video img {
         width: 50%;
         height: auto;
         min-width: 550px;
+        border-radius: 15px;
+    } */
+
+    .video img {
+        width: 400px;
+        height: 500px;
+        object-fit: contain;
     }
 
     .video h1 {
@@ -189,11 +190,105 @@ main {
     }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 801px) and (max-width: 1000px) {
+    /* .video img {
+        width: 400px;
+        height: 500px;
+        object-fit: contain;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+
+    .video {
+        position: relative;
+        display: flex;
+        background-color: black;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .video-info-container {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    /* .video img {
+        width: 50%;
+        height: auto;
+        min-width: 550px;
+        border-radius: 15px;
+    } */
+
+    .video img {
+        width: 300px;
+        height: 400px;
+        object-fit: contain;
+    }
+
+    .video h1 {
+        font-size: 40px;
+    }
+
+    .video pre {
+        font-size: 15px;
+    }
+
+    .video p {
+        font-size: 20px;
+        margin-right: 200px;
+    }
+
+    .buttons-categories {
+        font-size: 15px;
+        width: 10%;     
+    }
+
+    .multicolortext1 .director1, .multicolortext1 .director2, .multicolortext2 .stars1, .multicolortext2 .stars2 { 
+        font-size: 15px;
+    }
+
+    .video h2 {
+        font-size: 40px;
+    }
+
+    .buttons {
+        margin-top: 50px;
+    }
+
+    .buttons a {
+        font-size: 20px;
+    }
+
+    .addtocart a, .watchnow a {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+     .video img {
+        width: 400px;
+        height: 500px;
+        object-fit: contain;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 500px) {
     .video img {
         width: 100%;
         height: 100%;
     }
+}
+
+@media (max-width: 800px) {
+    /* .video img {
+        width: 100%;
+        height: 100%;
+    } */
 
     .video h1 {
         font-size: 35px;

@@ -67,6 +67,11 @@ body {
     height: 100%;
 }
 
+.cta-circles-home img:hover {
+    outline: 5px dotted #ff9900;
+    border-radius: 50%;
+}
+
 .about, .contact {
     color: white;
     text-align: center;
@@ -189,6 +194,11 @@ body {
 .cta-circles-categories img {
     max-width: 100%;
     height: 100%;
+}
+
+.cta-circles-categories img:hover {
+    outline: 5px dotted #ff9900;
+    border-radius: 50%;
 }
 
 .cta-circles-categories {
