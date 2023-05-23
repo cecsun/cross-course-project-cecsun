@@ -67,10 +67,10 @@ body {
     height: 100%;
 }
 
-.cta-circles-home img:hover {
+/* .cta-circles-home img:hover {
     outline: 5px dotted #ff9900;
     border-radius: 50%;
-}
+} */
 
 .about, .contact {
     color: white;
@@ -79,9 +79,12 @@ body {
 
 .about h1 {
     font-size: 50px;
-    background-color: black;
-    margin-left: 45%;
-    margin-right: 45%;
+    /* background-color: black; */
+    /* margin-left: 45%; */
+    /* margin-right: 45%; */
+    /* outline: 3px solid yellow; */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .contact h1 {
@@ -196,10 +199,10 @@ body {
     height: 100%;
 }
 
-.cta-circles-categories img:hover {
+/* .cta-circles-categories img:hover {
     outline: 5px dotted #ff9900;
     border-radius: 50%;
-}
+} */
 
 .cta-circles-categories {
     display: grid;
