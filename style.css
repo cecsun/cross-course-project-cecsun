@@ -97,6 +97,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: white;
+    margin-bottom: 20px;
 }
 
 .form-header {
@@ -161,18 +162,19 @@ body {
 }
 
 .message-submit a {
+    /* color: white; */
+    background-color: #ff9900;
     color: black;
     text-decoration: none;
-}
-
-.btn {
-    color: white;
-    background-color: #ff9900;
     border: none;
     margin-left: 5px;
     margin-right: 5px;
     font-size: 15px;
     padding: 10px;
+}
+
+.message-submit a:hover {
+    color: white;
 }
 
 .categories-page h1, .all-videos h1, .most-popular h1, .collections h1, .my-videos-page h1, .just-added-page h1, .categories-headings h1 {
@@ -205,7 +207,7 @@ body {
     height: 100%;
 }
 
-@media (min-width: 1001px) {
+@media (min-width: 501px) {
     main {
         margin-top: 250px;
     }
@@ -344,7 +346,7 @@ body {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
     body {
         background-color: black;
     }
