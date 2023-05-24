@@ -72,22 +72,15 @@ body {
     border-radius: 50%;
 } */
 
-.about, .contact {
+.about p, .contact {
     color: white;
     text-align: center;
 }
 
-.about h1 {
+.about h1, .contact h1 {
+    color: white;
     font-size: 50px;
-    /* background-color: black; */
-    /* margin-left: 45%;
-    margin-right: 45%; */
-    /* -webkit-text-stroke: 2px black;
-    -webkit-text-fill-color: white; */
-}
-
-.contact h1 {
-    font-size: 50px;
+    text-align: center;
 }
 
 .contact h2, h3 {
@@ -270,6 +263,10 @@ body {
 
     .about h1 {
         background-color: black;
+        margin-left: 45%;
+        margin-right: 45%;
+        /* -webkit-text-stroke: 2px black;
+        -webkit-text-fill-color: white; */
     }
 
     .about p {
@@ -286,9 +283,9 @@ body {
         margin-right: 35%;
     }    
 
-    .contact h1 {
+    /* .contact h1 {
         margin-bottom: 50px;
-    }
+    } */
 
     .contact h3 {
         margin-top: 50px;
