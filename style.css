@@ -41,7 +41,7 @@ body {
 
 .subheader a {
     color: white;
-    outline: 3px solid yellow;
+    background-color: black;
 }
 
 .just-added img, .my-videos img {
@@ -217,8 +217,8 @@ body {
     }
 
     .subheader {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .just-added, .my-videos {
@@ -241,8 +241,10 @@ body {
     }
 
     .categories-page h1, .most-popular h1, .collections h1, .my-videos-page h1, .just-added-page h1, .all-videos h1, .categories-headings h1 {
-        margin-left: 44%;
-        margin-right: 44%;
+        background-color: black;
+        width: 250px;
+        margin: auto;
+        margin-bottom: 30px;
     }
 
     .about-container {
@@ -274,17 +276,18 @@ body {
         letter-spacing: 0.5px;
         padding: 30px;
         text-align: left;
+        font-size: 30px;
     }
 
     .contact-page {
         background-color: black;
-        margin-left: 35%;
-        margin-right: 35%;
+        margin-left: auto;
+        margin-right: auto;
     }    
 
-    /* .contact h1 {
+    .contact h1 {
         margin-bottom: 50px;
-    } */
+    }
 
     .contact h3 {
         margin-top: 50px;
@@ -331,18 +334,6 @@ body {
         row-gap: 20px;
         padding: 20px;
         background-color: #0008;
-    }
-}
-
-@media (min-width: 1251px) {
-    .about p {
-        font-size: 30px;
-    }
-}
-
-@media (min-width: 1001px) and (max-width: 1250px) {
-    .about p {
-        font-size: 22px;
     }
 }
 
