@@ -1,4 +1,4 @@
-# Cross Course Project
+# Cross-Course Project
 
 ![image](/images/logo.png)
 
