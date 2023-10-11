@@ -1,22 +1,49 @@
-# course-assignment-html-and-css
+# Cross Course Project
 
-![Screenshot of project](/images/Screenshot.png)
+![image](/images/logo.png)
 
-For this assignment I have created a properly functioning, responsive website for the assigment brief I chose in Design 1. The website contains every page listed in the site architecture on the chosen brief.
+## Description
 
-- Home
-- List of videos
-- A video page showing the product details
-- A checkout page
-- A checkout success
-- About
-- Contact
+Square Eyes is a video streaming website where you can purchase high-quality videos. The cross course project began with creating a high-fidelity interactive prototype of the design. Afterwards I created a properly functioning, responsive website with HTML and CSS based on the prototype I designed. Later on I used JavaScript to modify the project to fetch products from an external API, and completed the project by testing the usability with Hotjar.
 
-I made some small adjustments from the original prototype in Figma when I created the website with html and css. I also updated the page based on the feedback I received from the submission in Design 1.
+## Built With
 
-I have created this website by following the course modules, and slowly but surely put into practice everything I have learned about HTML and CSS over this course.
+- [HTML](https://html.com/)
+- [CSS](https://www.w3schools.com/css/)
+- [JavaScript](https://www.javascript.com/)
 
-The website have been created in Visual Studio Code, where I have installed and used Live Server to follow the process of creating the website. I also created an account on the Font Awesome website, where I got the icons on the website from. 
+## Getting Started
 
-References:
-- Image on product page (Batman): https://p3.no/filmpolitiet/2022/03/the-batman/
+### Installing
+
+This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/cecsun/cross-course-project-cecsun.git
+```
+
+2. Install the dependencies:
+
+```
+npm install
+```
+
+### Running
+
+Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
+
+To run the app, run the following commands:
+
+```bash
+npm run start
+```
+
+## Contributing
+
+Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+
+## Contact
+
+[My LinkedIn page](https://www.linkedin.com/in/cecilie-sunde/)
