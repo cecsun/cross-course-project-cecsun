@@ -16,8 +16,6 @@ Square Eyes is a video streaming website where you can purchase high-quality vid
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
-
 1. Clone the repo:
 
 ```bash
